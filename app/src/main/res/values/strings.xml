@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyUniApp</string>
+    <string name="input_text_hint">Введите текст</string>
+    <string name="go_to_calculator">Перейти к калькулятору</string>
+    <string name="set_random_color">Выставить случайный свет</string>
+
+    <string-array name="operations">
+        <item>*</item>
+        <item>+</item>
+        <item>-</item>
+        <item>/</item>
+    </string-array>
+</resources>

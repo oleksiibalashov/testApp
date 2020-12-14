@@ -1,0 +1,26 @@
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorPrimary">@android:color/holo_orange_dark</item>
+        <item name="colorPrimaryDark">@android:color/holo_orange_dark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="DestinationInputStyle">
+        <item name="android:layout_height">58dp</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:backgroundTint">@android:color/transparent</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:inputType">textCapSentences</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:imeOptions">actionSearch</item>
+    </style>
+
+    <style name="SmallSimpleImageButtonStyle" parent="Widget.AppCompat.ImageButton">
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:minWidth">35dp</item>
+        <item name="android:minHeight">35dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+    </style>
+</resources>
